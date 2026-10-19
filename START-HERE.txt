@@ -1,0 +1,21 @@
+WEALTHY REPORTS — TWO INTERACTIVE PROTOTYPES
+
+Open index.html to compare the two variations.
+Keep this folder and its assets together when sharing it.
+
+Variation 1: variation-1.html — 67/33 client selection + persistent configuration.
+Variation 2: variation-2.html — full client selection + completion modal.
+Coverage and review notes: coverage.html.
+
+All client fixtures are fictional. Emails and scheduled runs are simulated.
+Sample downloads are labelled and contain no real financial information.
+Prototype controls (top-right) let you test loading, empty, success, failure,
+partial success and no-data states. Reset demo data restores the initial state.
+
+The Lato webfont references Wealthy's existing Adobe font stylesheet and needs
+an internet connection if not cached. Logo/navigation assets are included.
+
+If a browser restricts local file scripts, serve this folder locally:
+  python3 -m http.server 8000 --bind 127.0.0.1
+Then open http://127.0.0.1:8000/index.html.
+No installation or build step is required.
